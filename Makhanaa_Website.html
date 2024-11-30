@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makhanaa | Premium Fox Nuts</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">MAKHA<span>NAA</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section with Slider -->
+    <section id="home" class="hero-slider">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="slide-content">
+                        <h1>Premium Fox Nuts</h1>
+                        <p>Discover the luxury of healthy snacking</p>
+                        <a href="#products" class="btn-primary">Explore Collection</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-content">
+                        <h1>Artisanal Flavors</h1>
+                        <p>Crafted for discerning palates</p>
+                        <a href="#products" class="btn-primary">View Products</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-content">
+                        <h1>Wellness Meets Luxury</h1>
+                        <p>Ancient wisdom, modern indulgence</p>
+                        <a href="#about" class="btn-primary">Our Story</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section id="products" class="featured-products">
+        <div class="container">
+            <h2>Premium Collection</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="path-to-image" alt="Classic Roasted">
+                    </div>
+                    <div class="product-info">
+                        <h3>Classic Roasted</h3>
+                        <p>Pure and natural fox nuts</p>
+                        <span class="price">₹299</span>
+                        <button class="btn-secondary">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="path-to-image" alt="Himalayan Pink Salt">
+                    </div>
+                    <div class="product-info">
+                        <h3>Himalayan Pink Salt</h3>
+                        <p>Infused with premium pink salt</p>
+                        <span class="price">₹349</span>
+                        <button class="btn-secondary">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="path-to-image" alt="Truffle & Herbs">
+                    </div>
+                    <div class="product-info">
+                        <h3>Truffle & Herbs</h3>
+                        <p>Luxury meets tradition</p>
+                        <span class="price">₹499</span>
+                        <button class="btn-secondary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <h2>Our Story</h2>
+                <p>Crafted with passion and precision, Makhanaa brings you the finest fox nuts from the heart of Bihar. Our commitment to quality and wellness drives us to create exceptional snacking experiences.</p>
+                <div class="features">
+                    <div class="feature">
+                        <h3>Premium Quality</h3>
+                        <p>Handpicked and carefully processed</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Wellness</h3>
+                        <p>Rich in nutrients and antioxidants</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Sustainable</h3>
+                        <p>Eco-friendly packaging and practices</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>Email: info@makhanaa.com</p>
+                    <p>Phone: +91 XXXXXXXXXX</p>
+                    <p>Address: Your Location</p>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Message" required></textarea>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo footer-logo">MAKHA<span>NAA</span></div>
+                <div class="footer-links">
+                    <a href="#products">Products</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <p class="copyright">&copy; 2024 Makhanaa. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            autoplay: {
+                delay: 5000,
+            },
+        });
+    </script>
+</body>
+</html>
